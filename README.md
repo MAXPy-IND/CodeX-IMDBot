@@ -1,5 +1,5 @@
 <p align="center">
-<img style="width:100px; height:100px;" src="Icon.png" alt="MAX-IMDBot Logo">
+<img style="width:100px; height:100px;" src="IMDb Logo.png" alt="MAX-IMDBot Logo">
 </p>
 
 <h1 align="center">
