@@ -20,9 +20,11 @@ A Chat Bot written in python for search movie details like IMDb..!!
 
 ### Credits
 
-- Thanks to - [IMDb](http://www.imdb.com/))
-- Thanks to - [Requests](https://requests.readthedocs.io/0)
-- Thanks to - [ME](https://github.com/MAXPy-IND)
+- Thanks to - [God..!](https://en.wikipedia.org/wiki/God)
+- Thanks to - [Python..!](www.python.org)
+- Thanks to - [IMDb..!](http://www.imdb.com/))
+- Thanks to - [Requests..!](https://requests.readthedocs.io/0)
+- Thanks to - [ME..!](https://github.com/MAXPy-IND)
 
 
 ### Deployment
