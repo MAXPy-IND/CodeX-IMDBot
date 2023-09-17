@@ -26,8 +26,8 @@ def get_movie_info(movie_title):
     except Exception as e:
         return str(e)
 
-def imdb_chatbot():
-    print("IMDb Chat Bot")
+def max():
+    print("photo="IMDb Logo.png, text=IMDb Chat Bot")
     print("Type 'exit' to quit.")
 
     while True:
@@ -40,5 +40,5 @@ def imdb_chatbot():
         print(f"Bot: {result}")
 
 if __name__ == "__main__":
-    imdb_chatbot()
+    max()
 
