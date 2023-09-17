@@ -27,8 +27,8 @@ def get_movie_info(movie_title):
         return str(e)
 
 def max():
-    print("MAX IMDBot")
-    print("Type 'exit' to quit.")
+    print("""Welcome to MAX IMDBot, You can get details about a movie through this Chat Bot..!!")
+    print("Type exit to quit")
 
     while True:
         user_input = input("You: ")
