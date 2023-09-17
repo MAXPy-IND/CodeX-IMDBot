@@ -25,15 +25,13 @@ A Chat Bot written in python for search movie details like IMDb..!!
 - Thanks to - [IMDb..!](http://www.imdb.com/)
 - Thanks to - [Requests..!](https://requests.readthedocs.io/0)
 - Thanks to - [ME..!](https://github.com/MAXPy-IND)
+- Thanks to - [max.py](tt.me/maxpy)
 
 
 ### Deployment
 
-<details><summary>Deploy To Replit</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/Midukki-RoBoT">
-  <img style="width:100px; height:100px;" src="Replit.png" alt="Deploy">
-</a>
-</p>
-</details>
+## Deploy To Replit
+
+- Copy Repo link.!!
+- Import this link to replit.com.!!
+- Then Run with python main.py run command
