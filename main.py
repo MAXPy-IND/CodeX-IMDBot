@@ -27,7 +27,7 @@ def get_movie_info(movie_title):
         return str(e)
 
 def max():
-    print("photo="IMDb Logo.png, text=IMDb Chat Bot")
+    print("MAX IMDBot")
     print("Type 'exit' to quit.")
 
     while True:
