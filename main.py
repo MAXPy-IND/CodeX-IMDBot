@@ -1,24 +1,23 @@
-import imdb
+import requests
 
-# Create an instance of the IMDb class
-ia = imdb.IMDb()
+OMDB_API_KEY = 'f04cefcb'
 
 def get_movie_info(movie_title):
     try:
-        # Search for movies that match the title
-        movies = ia.search_movie(movie_title)
+        # Create a request to the OMDB API
+        url = f"http://www.omdbapi.com/?t={movie_title}&apikey={OMDB_API_KEY}"
+        response = requests.get(url)
+        data = response.json()
 
-        if not movies:
+        if data.get("Response") == "False":
             return "No movie found with that title."
 
-        # Get the first movie's details
-        movie = movies[0]
-        ia.update(movie)
-        title = movie.get("title", "N/A")
-        year = movie.get("year", "N/A")
-        rating = movie.get("rating", "N/A")
-        plot = movie.get("plot", "N/A")
-        genres = ", ".join(movie.get("genres", ["N/A"]))
+        # Extract movie details from the API response
+        title = data.get("Title", "N/A")
+        year = data.get("Year", "N/A")
+        rating = data.get("imdbRating", "N/A")
+        genres = data.get("Genre", "N/A")
+        plot = data.get("Plot", "N/A")
 
         result = (
             f"Title: {title}\nYear: {year}\nRating: {rating}\nGenres: {genres}\nPlot: {plot}"
@@ -42,3 +41,4 @@ def imdb_chatbot():
 
 if __name__ == "__main__":
     imdb_chatbot()
+
