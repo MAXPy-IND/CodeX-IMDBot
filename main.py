@@ -26,9 +26,8 @@ def get_movie_info(movie_title):
     except Exception as e:
         return str(e)
 
-def max():
-    print("""Welcome to MAX IMDBot, You can get details about a movie through this Chat Bot..!!")
-    print("Type exit to quit")
+def pirogram():
+    print("""Welcome to Pirogram IMDBot, You can get details about a movie through this Chat Bot..!!""")
 
     while True:
         user_input = input("You: ")
@@ -40,5 +39,5 @@ def max():
         print(f"Bot: {result}")
 
 if __name__ == "__main__":
-    max()
+    pirogram()
 
