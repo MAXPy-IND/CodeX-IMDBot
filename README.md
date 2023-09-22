@@ -33,8 +33,7 @@ A Chat Bot written in python for search movie details like IMDb..!!
 <details><summary>Tutorial Video</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/Midukki-RoBoT">
-</a>
+<a href="https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/Midukki-RoBoT">Click Here..!</a>
 </p>
 </details>
 
