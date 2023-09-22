@@ -30,9 +30,9 @@ A Chat Bot written in python for search movie details like IMDb..!!
 
 ### Deployment
 
-## Tutorial Video
+[*] Tutorial Video
 
-# Code
+[*] Code
 
 - Copy Repo link.!!
 - Import this link to replit.com.!!
