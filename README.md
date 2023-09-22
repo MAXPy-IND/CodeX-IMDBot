@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-<a href="https://github.com/MAXPy-IND/MAX-IMDBot">Pirogram IMDBot</a>
+<a href="https://github.com/MAXPy-IND/Pirogram-IMDBot">Pirogram IMDBot</a>
 </h1>
 
 <p align="center">
