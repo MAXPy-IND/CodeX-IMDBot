@@ -37,7 +37,7 @@ alt="Pirogram-IMDBot Logo">
 </p>
 </details>
 
-- Code
+- [x] Code
 
 ```
 import requests
