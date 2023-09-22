@@ -46,7 +46,6 @@ OMDB_API_KEY = 'f04cefcb'
 
 def get_movie_info(movie_title):
     try:
-        # Create a request to the OMDB API
         url = f"http://www.omdbapi.com/?t={movie_title}&apikey={OMDB_API_KEY}"
         response = requests.get(url)
         data = response.json()
@@ -54,7 +53,6 @@ def get_movie_info(movie_title):
         if data.get("Response") == "False":
             return "No movie found with that title."
 
-        # Extract movie details from the API response
         title = data.get("Title", "N/A")
         year = data.get("Year", "N/A")
         rating = data.get("imdbRating", "N/A")
